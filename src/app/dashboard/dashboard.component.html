@@ -1,6 +1,19 @@
-<h2>State Temperature </h2>
-<ul class="dashboard-list">
-  <li class="dashboard-item" *ngFor="let value of collectionValues">{{ value }}</li>
-</ul>
+<h1>WELCOME TO TEMPERATURE WALA!!!</h1>
 
 
+<table class="table">
+    <thead>
+      <tr>
+        <th scope="col">city</th>
+        <th scope="col">Degree</th>
+      </tr>
+    </thead>
+    <tbody *ngFor="let temperature of string.temperature()">
+
+      <tr>
+        <td>{{temperature.City}}</td>
+        <td>{{temperature.degree}}</td>
+      </tr>
+      
+    </tbody>
+  </table>

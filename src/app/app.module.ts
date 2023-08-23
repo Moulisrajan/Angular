@@ -1,8 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { FormsModule } from '@angular/forms';
-import { LocationStrategy, HashLocationStrategy } from '@angular/common'; // Add this line
-
+import { FormsModule } from '@angular/forms'
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { LoginComponent } from './login/login.component';
@@ -19,11 +17,7 @@ import { DashboardComponent } from './dashboard/dashboard.component';
     AppRoutingModule,
     FormsModule
   ],
-  providers: [
-    { provide: LocationStrategy, useClass: HashLocationStrategy } 
-  ],
+  providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
-
-

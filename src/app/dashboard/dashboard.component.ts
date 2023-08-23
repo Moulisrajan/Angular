@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { StringService } from '../string.service';
+
 
 @Component({
   selector: 'app-dashboard',
@@ -6,6 +8,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./dashboard.component.css']
 })
 export class DashboardComponent {
-  collectionValues: string[] = ['Chennai - 32.6c', 'Bangalore- 26.4c', 'Mumbai-24.3c', 'Noida- 25-7c'];
-}
 
+  constructor(public string:StringService){
+
+    
+
+  }
+  
+}
