@@ -1,3 +1,23 @@
-h1{
-    color:aqua;
+.passenger-table{
+    width: 100px;
+    border-collapse: collapse;
+    margin-top:20px;
+    box-shadow: 0px opx 10px rgba(0,0,0, 0.1);
+    border:solid rgb(202, 27, 27) 2px;
+    justify-content: center;
+    
+      align-items: center;
+}
+.passenger-table th{
+    background-color: rgb(60, 0, 255);
+    padding: 10px;
+    text-align: left;
+
+}
+.passenger-table td{
+
+    padding: 10px;
+    border:1px solid #dddddd;
+    text-align: left;
+
 }

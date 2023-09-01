@@ -1,0 +1,48 @@
+{
+    "Passenger":
+    [
+        {
+            "name":"Mano",
+       "position":"LowerBerth",
+        "address":"Chennai-Mumbai",
+        "phoneNumber":"962954778"
+    },
+  {
+    "name":"Tamil",
+    "position":"UpperBerth",
+   "address":"Coimbatore-Chennai",
+    "phoneNumber":"9842195709"
+},
+
+    {
+        "name":"Arun",
+        "position":"MiddleBerth",
+        "address":"Mumbai-Kolkata",
+        "phoneNumber":"942562622"
+    },
+
+   {
+    "name":"Hem",
+    "position":" LowerBerth",
+    "address":"Banglore-Chennai",
+    "phoneNumber":"87766221"
+},
+    {
+        
+        "name":"Ragav",
+       "position":"MiddleBerth",
+        "address":"Chennai-Kerala",
+        "phoneNumber":"67265523"
+    },
+    
+    {
+        
+        "name":"Nithesh",
+       "position":"UpperBerth",
+        "address":"Pune-Noida",
+        "phoneNumber":"65645454"
+    }
+
+
+    ]
+}

@@ -1,18 +1,21 @@
-
-<div>
-
-  
-</div>
-<div>
-    <form>
-      <label for="exampleInputEmail1" class="form-label">Email address</label>
-      <input type="email" [(ngModel)]="email" [ngModelOptions]="{standalone: true}" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-      <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
-      <label for="exampleInputPassword1" class="form-label">Password</label>
-      <input type="password" [(ngModel)]="password" [ngModelOptions]="{standalone: true}" class="form-control" id="exampleInputPassword1">
-    <button type="submit" (click)="login" class="btn btn-primary">Submit</button>
-
-  </form>
-</div>
-
-  
+<div class="loginclass">
+    <mat-card>
+    <mat-card-content>
+        <h2 style="background-color: rgb(255, 0, 111);text-align: center;">Login Page</h2>
+        <form (ngSubmit)="login()" class="form-control">
+            <mat-form-field>
+                <input matInput placeholder="Username" [(ngModel)]="username" name="username">
+            </mat-form-field>
+            <br><br>
+                    <mat-form-field>
+                <input matInput placeholder="password" [(ngModel)]="password" name="password"><br>
+            </mat-form-field>
+            <br><br>
+            <button mat-raised-button color="primary" type="submit" style="background-color: darkgreen;text-align: center;">Login</button>
+            <br><br>
+            <br>
+        </form>
+    </mat-card-content>
+    
+    </mat-card>
+    </div>

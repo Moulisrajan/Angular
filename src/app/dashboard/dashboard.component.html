@@ -1,19 +1,24 @@
-<h1>WELCOME TO TEMPERATURE WALA!!!</h1>
+<mat-card>
+    <mat-card-content>
+        <h2>
+            Passengers DashBoard
+        </h2>
+        <table class="passenger-table" >
+         <tr>
+            <th><b>Name</b></th>
+            <th><b>Position</b></th>
+            <th><b>Address</b></th>
+            <th><b>PhoneNumber</b></th>
+        </tr> 
+        <tr *ngFor="let p of passenger">
 
-
-<table class="table">
-    <thead>
-      <tr>
-        <th scope="col">city</th>
-        <th scope="col">Degree</th>
-      </tr>
-    </thead>
-    <tbody *ngFor="let temperature of string.temperature()">
-
-      <tr>
-        <td>{{temperature.City}}</td>
-        <td>{{temperature.degree}}</td>
-      </tr>
-      
-    </tbody>
-  </table>
+                <td>{{p.name}}</td>
+                <td>{{p.position}}</td>
+                <td>{{p.address}}</td>
+                <td>{{p.phoneNumber}}</td>
+            </tr>
+          
+    
+        </table>
+    </mat-card-content>
+</mat-card>
